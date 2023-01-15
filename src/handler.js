@@ -48,7 +48,7 @@ const addBook = (request, res) => {
   }
 
   const response = res.response({
-    status: 'fail',
+    status: 'error',
     message: 'Buku gagal ditambahkan',
   });
   response.code(500);
